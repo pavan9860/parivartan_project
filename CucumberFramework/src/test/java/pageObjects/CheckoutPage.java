@@ -33,6 +33,8 @@ public class CheckoutPage {
 	public Boolean VerifyPlaceOrder()
 	{
 		return driver.findElement(placeOrder).isDisplayed();
+
+		System.out.println ("name");
 	}
 	
 	
